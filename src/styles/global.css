@@ -14,7 +14,8 @@ html{
 body{
     font-family: 'Poppins',sans-serif;
     background: #020617;
-    color: white
+    color: white;
+    position: relative;
 
     /* overflow-x: hidden; */
 }
