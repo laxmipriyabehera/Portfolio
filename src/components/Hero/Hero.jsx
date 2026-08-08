@@ -1,8 +1,9 @@
+import profileImage from "../../assets/profile.jpeg";
 import "./Hero.css";
 
 function Hero() {
   return (
-    <section className="hero">
+    <section className="hero" id="home">
 
       <div className="hero-left">
 
@@ -19,8 +20,9 @@ function Hero() {
         </h2>
 
         <p className="hero-description">
-          Building modern, responsive and user-friendly web
-          applications using React, JavaScript, HTML and CSS.
+          I build responsive and user-friendly web applications
+          using React, JavaScript, HTML and CSS, with a focus
+          on clean UI and seamless user experiences.
         </p>
 
         <div className="hero-buttons">
@@ -40,6 +42,9 @@ function Hero() {
       <div className="hero-right">
 
         <div className="image-circle">
+          <div className="hero-image">
+              <img src={profileImage} alt="Laxmipriya Behera" />
+               </div>
 
         </div>
 
