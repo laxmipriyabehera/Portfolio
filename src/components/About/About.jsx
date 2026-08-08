@@ -3,17 +3,15 @@ import "./About.css";
 function About() {
   return (
     <section className="about" id="about">
+
       <div className="about-container">
 
-        {/* Left Side */}
         <div className="about-content">
 
           <div className="about-heading">
             <h2>About Me</h2>
             <p>Get to know me better</p>
           </div>
-
-          <h3>Frontend Developer | React Enthusiast</h3>
 
           <p className="about-text">
             Hi, I'm <strong>Laxmipriya Behera</strong>, an MCA graduate who is
@@ -28,11 +26,11 @@ function About() {
             working on real-world projects.
           </p>
 
-          {/* Cards */}
+        
           <div className="about-cards">
 
             <div className="card">
-              <h4>3+</h4>
+              <h4>03+</h4>
               <span>Projects</span>
             </div>
 
@@ -43,28 +41,17 @@ function About() {
 
             <div className="card">
               <h4>MCA</h4>
-              <span>Graduate</span>
+              <span>Degree</span>
             </div>
 
             <div className="card">
               <h4>2025</h4>
-              <span>Passout</span>
+              <span>Graduation</span>
             </div>
 
           </div>
 
         </div>
-
-        {/* Right Side */}
-        <div className="about-image">
-
-          <div className="image-circle">
-            {/* Later we'll add your professional photo here */}
-            <span>Photo</span>
-          </div>
-
-        </div>
-
       </div>
     </section>
   );
